@@ -1,0 +1,24 @@
+body{
+    background-image: url(school\ logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#grad{
+   background-size: 150px;
+    background-image: linear-gradient(to top right,purple,pink,yellow,red,orange);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    border: 3px color red;
+}
+@keyframes y{
+    14% {background-color: red;}
+        5% {background-color: aqua;}
+        12% {background-color: yellow;}
+}
+.text{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-decoration: line-through;
+}

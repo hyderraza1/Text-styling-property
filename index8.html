@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Styling background</title>
+    <style>
+     body {
+        background-image: url(school\ logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #grad{
+        background: linear-gradient(to top left,purple,pink,yellow,red,orange);
+        background-size: 150px;
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+        border: 3px color red;
+    } 
+    #y{
+        height: 300px;
+        background-color: blueviolet;
+        animation-name : y;
+        animation-duration: 13s;
+    }
+    @keyframes y{
+        14% {background-color: red;}
+        5% {background-color: aqua;}
+        12% {background-color: yellow;}
+    }
+    .text{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2{
+        text-decoration: line-through;
+        text-transform: capitalize;
+    }
+    h3{
+        text-decoration: overline;
+        text-transform: lowercase;
+        text-shadow: 3px 4px 1px red;
+    }
+    h4{
+        text-decoration: underline;
+        text-transform: uppercase;
+        box-shadow: 3px 5px 1px blueviolet;
+    }
+    h5{
+        text-decoration: overline ;
+        text-transform: none;
+
+    }
+       
+    </style>
+</head>
+<body>
+   <h1 class="text">Hello, My name is hyder and i am in class 9th</h1> 
+
+   <h2>My age is 15years old </h2>
+   <h3>I dont have any pets </h3>
+
+
+
+
+
+
+
+
+   <div id="grad"><h1>hello guys</h1></div><br><br><br><br><br>
+   <div id="y"><h2>Ace HanEi is a premium residential project nestled in Sector 12, Noida Extension, offering a serene yet luxurious lifestyle spread over 6.5 acres of prime land. Designed with elegance and modernity in mind, Ace HanEi provides residents with a tranquil retreat amid the bustling urban life of Greater Noida West. Its strategic location ensures seamless connectivity to Noida, Delhi, and surrounding areas, while also offering proximity to essential facilities like schools, hospitals, and shopping centers. </h2></div>
+</body>
+</html>
