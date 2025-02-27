@@ -10,6 +10,12 @@ body{
     transform: rotate(180deg);
     border: 3px color red;
 }
+#y{
+    height: 300px;
+    background-color: blueviolet;
+    animation-name : y;
+    animation-duration: 13s;
+}
 @keyframes y{
     14% {background-color: red;}
         5% {background-color: aqua;}
@@ -21,4 +27,27 @@ body{
 }
 h2{
     text-decoration: line-through;
+    text-transform: capitalize;
+}
+h3{
+    text-decoration: overline;
+    text-transform: lowercase;
+    text-shadow: 3px 4px 1px red;
+    text-indent: 21%;
+}
+h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+    box-shadow: 3px 5px 1px blueviolet;
+}
+h5{
+    text-decoration: overline ;
+    text-transform: none;
+
+}
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+
 }
